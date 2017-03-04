@@ -25,6 +25,12 @@ public class WorldGuardHooker {
 		return regions;
 	}
 
+	/*
+	public static boolean checkRegion(String region){
+		Questable.worldguard.getRegionContainer().
+	}
+	*/
+
 	public static boolean checkOwner(Player target, String region){
 		LocalPlayer player = Questable.worldguard.wrapPlayer(target);
 		boolean owner = Questable.worldguard.getRegionManager(target.getWorld()).getRegion(region).isOwner(player);

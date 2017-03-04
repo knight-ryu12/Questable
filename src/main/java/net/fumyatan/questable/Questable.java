@@ -8,6 +8,7 @@ import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 
 import net.fumyatan.questable.Listener.PlayerDeathEventListener;
 import net.fumyatan.questable.Message.PrefixAdder;
+import net.yeahsaba.tanikyan.SpigotPluginAPI.Listener.EventListener;
 
 public class Questable extends JavaPlugin {
 	public static Plugin plugin;
@@ -26,6 +27,9 @@ public class Questable extends JavaPlugin {
 		} else {
 			PrefixAdder.setLoggerWarn("[前提プラグイン] WorldGuardが足りません！");
 		}
+
+		// APIEventSet
+		new EventListener(this);
 	}
 
 	@Override
