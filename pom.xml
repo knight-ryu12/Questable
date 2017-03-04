@@ -53,8 +53,8 @@
 		<artifactId>bukkit</artifactId>
 		<version>1.11.2-R0.1-SNAPSHOT</version>
 		<scope>provided</scope>
-    </dependency>
-    <dependency>
+	</dependency>
+	<dependency>
 		<groupId>net.milkbowl.vault</groupId>
 		<artifactId>VaultAPI</artifactId>
 		<version>1.6</version>

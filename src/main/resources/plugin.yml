@@ -1,0 +1,6 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: net.fumyatan.questable.Questable
+author: fumyatan
+website: https://fumyatan.net
+softdepend: [WorldGuard]
